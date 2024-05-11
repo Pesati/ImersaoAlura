@@ -14,6 +14,7 @@ O Imersão Alura é uma semana de aulas onde vamos criar um projeto do zero, com
 
 O Projeto de Imersão Alura de Inteligência Artificial consiste em um Chatbot de Inclusão Digital. Nele, é possível que uma pessoa com deficiência visual possa realizar uma conversa direta com o Gemini através da API key do Google.
 
+![api](https://github.com/Pesati/ImersaoAlura/assets/1533311/7f9f4d04-2b56-4934-8b7f-7007ddd09b73)
 
 
 ## Instalação
@@ -46,6 +47,14 @@ Estas bibliotecas tem por finalidade:
 - `Microfone`: Habilitar o microfone do computador e compilar o código para que possar ser reproduzido e salvo o arquivo na pasta.
 - `Texto em áudio`: Transformar o texto de retorno da IA em áudio para que o usuário possa ouvir a resposta do chatbot.
   
+## Funcionamento
+
+No final do código do projeto, tem a aba do Chatbot com a IA do Google. <br/> 
+O usuário consegue interagir com o chat até solicitar para enviando um áudio para "encerrar" a conversa. <br />
+A pasta de áudio tem os seguintes arquivos:
+* fim.mp3 - Reproduz o áudio para o usuário informando como encerrar o chat.
+* speech.mp3 - Cada resposta do chat a partir da pergunta do usuário, grava o arquivo de áudio para em seguida ser reproduzido.
+* wait_user.mp3 - Reproduz um áudio no momento em que ele precisa falar alguma coisa para o chatbot.
 
 ## Autor
 
